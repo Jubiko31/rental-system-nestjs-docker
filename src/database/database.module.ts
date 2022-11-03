@@ -1,28 +1,9 @@
 import { Module, OnApplicationShutdown, Logger } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
 import { Pool } from 'pg';
 import { DatabaseService } from './database.service';
 import { ModuleRef } from '@nestjs/core';
-
-const databasePoolFactory = async (configService: ConfigService) => {
-  return new Pool({
-    user: configService.get('DATABASE_USERNAME'),
-    host: configService.get('DATABASE_HOST'),
-    database: configService.get('DATABASE_NAME'),
-    password: configService.get('DATABASE_PASSWORD'),
-    port: configService.get('DATABASE_PORT'),
-  });
-};
-
 @Module({
-  providers: [
-    {
-      provide: 'DATABASE_POOL',
-      inject: [ConfigService],
-      useFactory: databasePoolFactory,
-    },
-    DatabaseService,
-  ],
+  providers: [DatabaseService],
   exports: [DatabaseService],
 })
 export class DatabaseModule implements OnApplicationShutdown {

@@ -1,8 +1,11 @@
 import { Injectable } from '@nestjs/common';
+import { DatabaseService } from './database/database.service';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
+  async getCars(): Promise<any> {
+    const pool = new DatabaseService();
+    const res = pool.executeQuery(`SELECT * FROM cars`);
+    return res;
   }
 }
