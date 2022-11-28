@@ -44,3 +44,25 @@
   <li>deploy: Docker</li>
   <li>desc: Readme.md</li>
 </ul>
+
+## Installation
+```bash
+$ npm install
+```
+## Running the application
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+## Run with Docker
+```bash
+$ docker-compose up --build
+```
+
+
