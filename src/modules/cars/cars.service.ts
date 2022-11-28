@@ -37,7 +37,7 @@ export class CarsService {
     );
 
     {
-      return res[0].answer === null
+      return !res.length || res[0].answer === null
         ? 'YES'
         : res[0].answer === 0
         ? 'ID does not exist.'
