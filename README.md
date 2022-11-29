@@ -65,4 +65,17 @@ $ npm run start:prod
 $ docker-compose up --build
 ```
 
+## Run Tests
+```bash
+# test
+$ npm run test
 
+# watch mode
+$ npm run test:watch
+
+# coverage mode
+$ npm run test:cov
+
+# debug
+$ npm run test:debug
+```
