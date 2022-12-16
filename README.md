@@ -1,10 +1,11 @@
 # Advanced Car Rental System - with NestJS + Docker, RabbitMQ
 
-### `Stack: NestJS, SQL, Docker, RMQ`
+### `Stack: NestJS, SQL, Docker, RMQ, Jest`
 ![nestjs](https://user-images.githubusercontent.com/53910160/201094014-86da86a3-4a84-4d43-bd70-d3613ce25ee1.png) &nbsp;
 ![sql](https://user-images.githubusercontent.com/53910160/201094681-915f1cc3-37c1-4534-a990-5bf89f314f34.png) &nbsp;
 ![docker](https://user-images.githubusercontent.com/53910160/201095220-904f8e4f-8838-4739-b5f4-4bf3c97a36a4.png) &nbsp;
-![rabbitmq](https://user-images.githubusercontent.com/53910160/207406085-b573e76c-9d92-4988-9946-b48e1bffd96a.png)
+![rabbitmq](https://user-images.githubusercontent.com/53910160/207406085-b573e76c-9d92-4988-9946-b48e1bffd96a.png) &nbsp;&nbsp;&nbsp;
+![jest](https://user-images.githubusercontent.com/53910160/208137582-249d7e31-ac43-4b58-bd3a-bf08bfad66f8.png)
 
 
 <br />
