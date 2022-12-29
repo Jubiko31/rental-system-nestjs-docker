@@ -7,6 +7,9 @@
 ![rabbitmq](https://user-images.githubusercontent.com/53910160/207406085-b573e76c-9d92-4988-9946-b48e1bffd96a.png) &nbsp;&nbsp;&nbsp;
 ![jest](https://user-images.githubusercontent.com/53910160/208137582-249d7e31-ac43-4b58-bd3a-bf08bfad66f8.png)
 
+<br />
+<br />
+Rental system using NestJS. Comlex renting functionality and monthly report with pure SQL/PostgreSQL. Project is also Dockerized, view run instructions below. Microservice using RabbitMQ, Microservice: https://github.com/Jubiko31/rental_microservice_rabbitmq_redis
 
 <br />
 
